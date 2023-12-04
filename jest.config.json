@@ -1,0 +1,13 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": ["**/*.test.ts"],
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "coverageDirectory": "./coverage",
+  "coveragePathIgnorePatterns": ["node_modules", "inputs"],
+  "reporters": ["default", "jest-junit"],
+  "globals": { "ts-jest": { "diagnostics": "false" } },
+  "~/(.*)": "<rootDir>/$1",
+  "moduleDirectories": ["node_modules", "inputs", "src"],
+  "transform": {}
+}

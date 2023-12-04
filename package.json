@@ -1,0 +1,23 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-esm src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jest-junit": "^16.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.10.3",
+    "ts-jest": "^29.1.1"
+  }
+}
