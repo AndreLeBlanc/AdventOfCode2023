@@ -5,6 +5,7 @@ import day4 from "../src/day4.ts";
 import day5 from "../src/day5.ts";
 import day6 from "../src/day6.ts";
 import day7 from "../src/day7.ts";
+import day8 from "../src/day8.ts";
 
 function runDay(day: any): void {
   if (process.argv[3] === "part1" || process.argv[3] === "all") {
@@ -42,6 +43,10 @@ switch (process.argv[2]) {
   }
   case "day7": {
     runDay(day7);
+    break;
+  }
+  case "day8": {
+    runDay(day8);
     break;
   }
   default:
