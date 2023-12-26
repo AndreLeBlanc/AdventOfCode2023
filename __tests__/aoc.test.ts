@@ -7,6 +7,7 @@ import day6 from "../src/day6";
 import day7 from "../src/day7";
 import day8 from "../src/day8";
 import day9 from "../src/day9";
+import day11 from "../src/day11";
 
 test("day 1, part 1", () => {
   expect(day1.part1()).toBe("54708");
@@ -78,4 +79,12 @@ test("day 9, part 1", () => {
 
 test("day 9, part 2", () => {
   expect(day9.part2()).toBe("889");
+});
+
+test("day 11, part 1", () => {
+  expect(day11.part1()).toBe("9591768");
+});
+
+test("day 11, part 2", () => {
+  expect(day11.part2()).toBe("746962097860");
 });
